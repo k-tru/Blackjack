@@ -111,9 +111,12 @@ function stand() {
 
     render()
 
-    if (dealerSum > 21) {
-        message = "Dealer Busts! You Win $60! 🎉"
+    if (blackJack && dealerSum != 21) {
+        message = "BLACKJACK!!! You Win $60! 💰"
         player.chips += 60 
+    } else if (dealerSum > 21) {
+        message = "Dealer Busts! You Win $40! 🎉"
+        player.chips += 40 
     } else if (sum > dealerSum) {
         message = "You beat the dealer! You Win $40! 🎉"
         player.chips += 40
