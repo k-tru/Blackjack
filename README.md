@@ -12,5 +12,7 @@ How to Play
 2. Click **Start** to buy in for \$20.
 3. Click **New Card** to draw, or **Stand** to pass to the dealer.
 
+Link: https://blackjack-kt.netlify.app/
+
 #Copyright
 All images &copy; 2026 by ❤️ Kien Trung. All rights reserved
